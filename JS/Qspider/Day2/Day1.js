@@ -145,8 +145,11 @@
 // Operators: Symbols for operations (e.g., +, =, &&)
 
 // Separators: Symbols that separate statements or blocks (e.g., ;, ,, ())
-
+ // comments
 // Use Cases
 // Tokens are fundamental for JavaScript parsing and error detection, such as “unexpected token” syntax errors when the parser finds an out-of-place token.
+
+
+// in js we have 60+keyword
 
 // In authentication, “token” also means authentication credentials like JWTs (JSON Web Tokens), which are used to securely transmit information between parties and maintain user sessions.
