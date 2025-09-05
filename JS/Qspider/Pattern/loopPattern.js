@@ -1,16 +1,14 @@
 // console.log("hello");
 
-// document.writeln(`<pre> Q1. this is the firs pattern 
-       
+// document.writeln(`<pre> Q1. this is the firs pattern
+
 //     * * * * *
 //     * * * * *
 //     * * * * *
 //     * * * * *
 //     * * * * *
-    
-    
-    
-// Ans: 
+
+// Ans:
 
 // for (let i = 0; i < 5; i++) {
 //   for (let j = 0; j < 5; j++) {
@@ -26,18 +24,15 @@
 //   document.writeln("<br/>");
 // }
 
-// document.writeln(`<pre> Q2. this is the 2nd pattern 
-       
-//     * 
-//     * * 
+// document.writeln(`<pre> Q2. this is the 2nd pattern
+
+//     *
+//     * *
 //     * * *
-//     * * * * 
+//     * * * *
 //     * * * * *
-    
-    
-    
-// Ans: 
 
+// Ans:
 
 // for (let a = 0; a <= 5; a++) {
 //   for (let b = 0; b < a; b++) {
@@ -45,7 +40,6 @@
 //   }
 //   document.writeln("<br/>");
 // }
-
 
 // </pre>`);
 
@@ -56,16 +50,14 @@
 //   document.writeln("<br/>");
 // }
 
-// document.writeln(`<pre> Q2. this is the 2nd pattern 
-       
+// document.writeln(`<pre> Q2. this is the 2nd pattern
+
 //     1
 //     1 2
 //     1 2 3
-//     1 2 3 4 
+//     1 2 3 4
 //     1 2 3 4 5
-// Ans: 
-
-
+// Ans:
 
 // for (let c = 0; c < 5; c++) {
 //   for (let d = 0; d < c; d++) {
@@ -73,7 +65,6 @@
 //   }
 //   document.writeln("<br />");
 // }
-
 
 // </pre>`);
 
@@ -84,16 +75,14 @@
 //   document.writeln("<br />");
 // }
 
-// document.writeln(`<pre> Q3. this is the 3rd pattern 
-       
+// document.writeln(`<pre> Q3. this is the 3rd pattern
+
 //     1
 //     2 2
 //     3 3 3
-//     4 4 4 4 
+//     4 4 4 4
 //     5 5 5 5 5
-// Ans: 
-
-
+// Ans:
 
 // for (let i = 0; i < 8; i++) {
 //   for (let j = 0; j < i; j++) {
@@ -101,8 +90,6 @@
 //   }
 //   document.writeln("<br/>");
 // }
-
-
 
 // </pre>`);
 
@@ -113,15 +100,14 @@
 //   document.writeln("<br/>");
 // }
 
-// document.writeln(`<pre> Q4. this is the 4th pattern 
-       
+// document.writeln(`<pre> Q4. this is the 4th pattern
+
 //    * * * * *
 //    * * * *
-//    * * * 
-//    * *  
-//    * 
-// Ans: 
-
+//    * * *
+//    * *
+//    *
+// Ans:
 
 // for (let i = 5; i > 0; i--) {
 //   for (let j = 5; j >i; j--) {
@@ -129,8 +115,6 @@
 //   }
 //   document.writeln("<br/>");
 // }
-
-
 
 // </pre>`);
 
@@ -141,15 +125,14 @@
 // //   document.writeln("<br/>");
 // // }
 
-// document.writeln(`<pre> Q4. this is the 4th pattern 
-       
+// document.writeln(`<pre> Q4. this is the 4th pattern
+
 //    * * * * *
 //    * * * *
-//    * * * 
-//    * *  
-//    * 
-// Ans: 
-
+//    * * *
+//    * *
+//    *
+// Ans:
 
 // for (let i = 5; i > 0; i--) {
 //   for (let j = 5; j >i; j--) {
@@ -157,8 +140,6 @@
 //   }
 //   document.writeln("<br/>");
 // }
-
-
 
 // </pre>`);
 
@@ -181,29 +162,37 @@
 // }
 
 // document.writeln(`
-  
+
 //          <pre>
 //                      *
 //                    * * *
 //               * * * * * * * *
 //               *             *
-//               * * * * * * * *    
+//               * * * * * * * *
 //          </pre>`);
 
 
 
 
-        
+document.writeln(`<pre>
+  5
+  10 15 
+  20 25 30
+  35 40 45 50
+  50 45 40
+  35 30 
+  25
+  
+  </pre>`)
+let a = 5;
+let b = 1;
+for (let i = 0; i < 4; i++) {
+  for (let j = 0; j < b; j++) {
+   document.writeln(a);
+    a += 5;
+  }
+  b++;
+  
 
-         let a=5;
-         let b=1
-         for(let i=0;i<7;i++){
-              for(let j=0;j<b;j++){
-                document.writeln(a)
-                a+=5;
-              }
-              b++
-              
-             document.writeln("<br/>")
-         }
-         
+ document.writeln("<br/>");
+}

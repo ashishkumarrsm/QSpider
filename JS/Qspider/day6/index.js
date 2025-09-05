@@ -1,0 +1,15 @@
+// console.log("hello");
+// document.writeln("<h1>Hello this is the 6th day of js and today we will see the window objand lote of may stuf</h1>")
+// // console.log(window)
+// // window.prompt("enter the age of the user")
+// // let a =parseInt( prompt("enhter the name "))
+// let a1 =prompt("enhter the name ")
+// // console.log(a)
+// // console.log(typeof(a))
+// console.log(Boolean(a1))
+// console.log(typeof(a1))
+
+ const a=alert("are u shure")
+ console.log(a)
+ const b=confirm("are you doing this")
+ console.log(b)
