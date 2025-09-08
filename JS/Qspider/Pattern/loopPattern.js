@@ -171,28 +171,29 @@
 //               * * * * * * * *
 //          </pre>`);
 
+// document.writeln(`<pre>
+//   5
+//   10 15
+//   20 25 30
+//   35 40 45 50
+//   50 45 40
+//   35 30
+//   25
 
-
-
-document.writeln(`<pre>
-  5
-  10 15 
-  20 25 30
-  35 40 45 50
-  50 45 40
-  35 30 
-  25
-  
-  </pre>`)
+//   </pre>`);
 let a = 5;
 let b = 1;
-for (let i = 0; i < 4; i++) {
-  for (let j = 0; j < b; j++) {
-   document.writeln(a);
-    a += 5;
+for (let i = 0; i < 7; i++) {
+  for (let j = 0; j <=i; j++) {
+    if (i < 4) {
+      document.writeln(a);
+      a += 5;
+      b++;
+    }else{
+      a-=5;
+      document.writeln(a);
+      b--;
+    }
   }
-  b++;
-  
-
- document.writeln("<br/>");
+  document.writeln("<br/>");
 }
