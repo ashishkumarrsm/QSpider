@@ -181,19 +181,16 @@
 //   25
 
 //   </pre>`);
-let a = 5;
-let b = 1;
-for (let i = 0; i < 7; i++) {
-  for (let j = 0; j <=i; j++) {
-    if (i < 4) {
-      document.writeln(a);
-      a += 5;
-      b++;
-    }else{
-      a-=5;
-      document.writeln(a);
-      b--;
+let num = 5;
+let loop = 7;
+for (let i = 1; i <= 7; i++) {
+  for (let j = 0; j < (i <= 4 ? i : loop - i + 1); j++) {
+    if (i <= 4) {
+      document.writeln(num);
+      num += 5;
+    } else {
+      num -= 5;
+      document.writeln(num);
     }
   }
-  document.writeln("<br/>");
 }
