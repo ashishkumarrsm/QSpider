@@ -2,8 +2,10 @@
 
 // // 1. WAJSP to find the sum of array elements.
 
-let arr1 = [1, 22, 333, 4, 6, 4, 5, 56];
-let arr = [1, 2, 3, 4, 6, 4, 5, 5, 56, 23, 444, 555, 666, 33, 1221, 2112, 3223];
+// let arr1 = [1, 22, 333, 4, 6, 4, 5, 56];
+let arr = [
+  1, 2, 3, 4, 6, 4, 5, 5, 5, 5, 56, 23, 444, 555, 666, 33, 1221, 2112, 3223,
+];
 // let sum = 0;
 // for (let i = 0; i < arr.length; i++) {
 //   sum += arr[i];
@@ -100,31 +102,31 @@ console.log(duplicateValues(arr));
 
 // Q7. WAJSP to reverse the array without using inbuilt functions.
 
-let newArray = [];
-function reverseArray(arr) {
-  for (let i = 0; i < arr.length; i++) {
-     let pop=arr.pop()
-     console.log(pop)
-     newArray.push(pop)
-  }
-  return newArray;
-}
+// let newArray = [];
+// function reverseArray(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//      let pop=arr.pop()
+//      console.log(pop)
+//      newArray.push(pop)
+//   }
+//   return newArray;
+// }
 
-console.log(reverseArray(arr))
+// console.log(reverseArray(arr))
 
 // Q8.  WAJSP to findout the palindrome numbers from the given array.
-// let palindromNumber = [];
-// function isPalindrome(arr) {
-//   for (let i = 0; i < arr.length; i++) {
-//     let orignalArray = arr[i].toString();
-//     let reverse = orignalArray.split("").reverse().join("");
-//     if (orignalArray === reverse) {
-//       palindromNumber.push(arr[i]);
-//     }
-//   }
-//   return palindromNumber;
-// }
-// console.log(isPalindrome(arr));
+let palindromNumber = [];
+function isPalindrome(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    let orignalArray = arr[i].toString();
+    let reverse = orignalArray.split("").reverse().join("");
+    if (orignalArray === reverse) {
+      palindromNumber.push(arr[i]);
+    }
+  }
+  return palindromNumber;
+}
+console.log(isPalindrome(arr));
 
 // Q9. WAJSP to find out the armstrong number.
 
@@ -145,7 +147,18 @@ console.log(reverseArray(arr))
 // console.log(rotateArr(arr))
 
 // Q11.  WAJSP to find the second largest element in an array.
-
+// let secondLargestElement = [];
+// let count =0
+// function secondLarge(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     for(let j=i+1;j<arr.length;j++){
+//       if(arr[i]>arr[j]){
+        
+//       }
+//     }
+//   }return secondLargestElement
+// }
+// console.log(secondLarge(arr))
 // Q12.  WAJSP to merge two sorted arrays into one sorted array.
 
 // let asendingOder = (a, b) => {
