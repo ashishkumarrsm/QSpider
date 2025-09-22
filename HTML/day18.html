@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day18</title>
+    <style>
+        .center{
+            display: felx;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact{
+          text-align: center;
+        }
+    </style>
+  </head>
+  <body style=`${col}`>
+    <h1></h1>
+    <form action="" method="">
+      <div class="form-grp">
+        <label for="user-name">Ename</label>
+        <input type="text" name="" id="user-name" />
+      </div>
+      <div class="form-grp">
+        <label for="">password </label>
+        <input type="password" name="" id="" />
+      </div>
+      <div class="form-grp">
+        <label for="">Email</label>
+        <input type="email" name="" id="" />
+      </div>
+      <div class="form-grp">
+        <label for=""> contactno </label>
+        <input type="tel" name="" id="" />
+      </div>
+      <div class="form-grp">
+        <label for=""> skil</label>
+        <input type="checkbox" name="" id="" />
+        <label for="">java</label>
+        <input type="checkbox" name="" id="" />
+        <label for="">javaScript</label>
+        <input type="checkbox" name="" id="" />
+        <label for="">dcsdsd</label>
+        <input type="checkbox" name="" id="" />
+        <label for="">scbc</label>
+        <input type="checkbox" name="" id="" />
+      </div>
+      <div class="form-grp">
+        <label for="" >add</label>
+        <textarea name="" id=""></textarea>
+      </div>
+      <div class="from-grp">
+        <select name="" id="">
+          <option value="" selected disabled hidden>select the city </option>
+            <option value="">kkr</option>
+            <option value="">noida</option>
+            <option value="">noida</option>
+            <option value="">noida</option>
+            <option value="">noida</option>
+            <option value="">noida</option>
+            <option value="">noida</option>
+        </select>
+      </div>
+
+
+      <div class="form-grp center">
+
+        <label for="col">select color</label>
+        <input type="color" name="" id="col">
+      </div>
+
+      <input type="number" name="" id="" step="5" min="0">
+    </form>
+
+    <!-- defalte behaviure of html form is reloding -->
+
+
+    <script>
+        let col=document.querySelector("#col").value        
+    </script>
+  </body>
+</html>

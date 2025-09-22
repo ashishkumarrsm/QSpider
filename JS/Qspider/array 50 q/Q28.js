@@ -1,6 +1,6 @@
 // finde the majority element (appears more than n/2 times)
 
-let arr = [1, 1, 2, 3, 4, 4, 55, 55, 55, 3, 3, 2, 2, 2, 2, 2, 2, 2];
+let arr = [1,1,1,1,1,2,2,2];
 
 let frequencyfounder = (arr) => {
   let freq = {};
@@ -12,7 +12,7 @@ let frequencyfounder = (arr) => {
       break;
     }
   }
-  return majority;
+  return majority
 };
 
 console.log(frequencyfounder(arr));
