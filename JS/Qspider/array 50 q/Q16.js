@@ -1,6 +1,9 @@
 // sort an array in ascending order without using .sort() methode 
 let arr=[3,1,2,4,2,4,55,6]
 // we have some methode to do that like 
+
+
+
 // 1. bubble short 
 let shortingUsingBubbleShort=(arr)=>{
     let isSwop=false
@@ -18,7 +21,7 @@ let shortingUsingBubbleShort=(arr)=>{
     return arr
    
 }
-// console.log(shortingUsingBubbleShort(arr))
+console.log(shortingUsingBubbleShort(arr))
 
 
 // 2.  Selection Short
