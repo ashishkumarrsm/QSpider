@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <pre>
+         1. simple selector 
+                                it is use to targate the html element by using 
+                                its id class or tag name 
+                                   -> we have 5 type of simple selector 
+                                    1. id selector(#)
+                                    2. class selector (.)
+                                    3. univarsal selector(*): it is use to targate all the elmeent present in the html file ,it is represent by *
+                                    4. element selector(tag)
+                                    5. group selector (,): 
+
+        priorty of simple selecter 
+        first prioprt gose to id ,2nd gose to class ,3rd gose to element or tag selecter ,and last gose to univarsal selecter /
+    </pre>
+    <section class="container">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box4"></div>
+        <div id="box5"></div>
+
+    </section>
+
+
+    <pre>
+        2. combinator selector 
+           it is a combination of two or more selector 
+           it is use to targate the perticular elemet base on it's relation
+              i.   Descendent selector(space)
+              ii.  child selector (>)
+              iii. adjacent sibling selector(+)
+              iv.  General sibling selectore (~)
+    </pre>
+
+    <h2>i.   Descendent selector(space)</h2>
+        <section class="mainParent1">
+            <main class="container1">
+                <div>
+                    <h4>Hello this is 1st heading </h4>
+                </div>
+            </main>
+        </section>
+        <section class="mainParent2">
+            <main class="container1">
+                <div>
+                    <h4>Hello this is 2nd  heading </h4>
+                </div>
+            </main>
+        </section>
+        <pre>
+            Descendent selector(space):- 
+                                        it is use to targate the perticulare element by taking the refrance of its ensister (parent or grandparante)
+
+            .mainParent2 .container1 div h4{
+             color: rgba(55, 75, 75, 0.692);
+            }
+        </pre>
+
+
+         <h2>ii.  child selector (>)</h2>
+         <pre>
+            it is use to targate the particular element by taking the raf. of imigate parante 
+
+            syntex:- 
+
+               selector1>selector2{
+                propertes 1;
+                propertes 2;
+                propertes 3;
+                .
+                .
+                .
+                .
+                propertes n
+            }
+         </pre>
+</body>
+</html>
