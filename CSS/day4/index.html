@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      /* adjscent sibling selector */
+      div + h5 {
+        background-color: aqua;
+      }
+      p + div + li {
+        background-color: blueviolet;
+      }
+
+      /* general sibling selector */
+      div ~ li {
+        color: red;
+        background-color: magenta;
+      }
+      /* attributes selector */
+
+      input[type="password"] {
+        background-color: yellow;
+      }
+      input[type="email"] {
+        background-color: pink;
+      }
+      /* #h1:hover {
+        font-size: 130px;
+      } */
+      #ad:link{
+        color: pink;
+      }
+      #ad:active{
+        color: rgb(22, 116, 209);
+      }
+      #ad:visited{
+        color: rgb(173, 213, 253);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="background-color: blue; color: white">Hello abhishek</h1>
+    <h2 id="tagtarget">Hello sumit</h2>
+    <h3>Jai shree Ram</h3>
+    <ol>
+      <li>Lorem, ipsum.</li>
+      <p>asasa</p>
+      <div>asbjbsg</div>
+      <li>sd</li>
+      <li>dsddssd</li>
+      <p>Heelo desk</p>
+      <div>hello div</div>
+      <li>Abhishek</li>
+      <li>Deepanshu</li>
+      <h5>hello h1 tag</h5>
+    </ol>
+    <form action="">
+      <div class="form-g">
+        <label for="">usrname:</label>
+        <input type="text" name="" id="" />
+      </div>
+      <div class="form-g">
+        <label for="">password:</label>
+        <input type="password" name="" id="" />
+      </div>
+      <div class="form-g">
+        <label for="">Gmail:</label>
+        <input type="email" name="" id="" />
+      </div>
+    </form>
+
+    <pre>
+pseudo class
+        it is use to targate the spacifide state of an element 
+        thare are 3 type of pseudo class
+          1. dynamic pseudo class 
+               i. link 
+               ii. active 
+               iii. visited 
+               iv. hover
+               v. focus
+        2. structural pseudo class
+          i. first-child 
+          ii last-child 
+          iii nth-child 
+          iv first-of-type()
+           v last-of-type()
+          vi nth-of-type()
+            
+        3. ui element pseudo class
+           i. enabled 
+           ii. decabled 
+           iii. chacked
+
+    </pre>
+    <h1 id="h1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugit
+      placeat recusandae illum voluptatum, et doloremque magni laboriosam ipsam!
+      Dolores totam mollitia consequatur!
+    </h1>
+    <a href="aaa" id="ad"> kbjdcsbcbbc</a>
+  </body>
+</html>
