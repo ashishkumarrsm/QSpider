@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red ;
+}
+input[type ='text']:focus{
+    background: #000;
+    color: wheat;
+       padding: 120px;
+}
+input[type ='password']{
+    padding: 120px;
+}
+input[type ='radio']{
+    padding: 120px;
+}
+ol li:first-child{
+    color: rgb(253, 146, 6);
+}
+
+ol li:last-child{
+    color: rgb(253, 146, 6);
+}
+ol li:first-of-type{
+    color: pink;
+}
+ol li:last-of-type{
+    color: pink;
+}
+ol li:nth-child(3){
+    color: rgb(156, 156, 69);
+}
+ol li:nth-of-type(3){
+    color: rgb(233, 233, 28);
+}
+
+
+ol li:nth-child(odd){
+    background: rgb(233, 233, 28);
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background: lightblue;
+}
