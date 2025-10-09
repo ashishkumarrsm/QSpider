@@ -1,0 +1,42 @@
+#checkbox1{
+background: #ec3939;
+accent-color: red;
+}
+body{
+    background: #1b1b1b;
+    color: white;
+}
+button:enabled{
+    background: green;
+    color: white;
+}
+button:disabled{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.p::first-line{
+    color: red;
+}
+.p::first-letter{
+    font-size: 200%;
+    color: blue;
+}
+.p::before{
+    content: "Start of para😜😜😜😜😜😜";
+    color: yellow;
+}
+.p::after{
+    content: "End of para😜😜😜😜😜😜";
+    color: yellow
+}
+
+.p::selection{
+    background: yellow;
+    color: black;
+}
+ol li:nth-child(even)::marker{
+    content: '🥳🥳';
+}
+ol li:nth-child(odd)::marker{
+    content: '😎😎';
+}
