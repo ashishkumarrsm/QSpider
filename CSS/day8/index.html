@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header2{
+            color: rgb(255, 82, 212);
+            text-decoration: wavy underline;
+            text-decoration-color: rgb(241, 61, 160);
+            text-decoration-thickness:  5px;
+            text-underline-offset: 10px;
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            letter-spacing: 5px;
+            word-spacing: 10px;
+            text-indent: 200px;
+            text-transform: capitalize;
+            text-align: justify;
+            line-height: 1.5;
+            text-shadow: 2px 2px 5px grey;
+            background-color: lightgrey;
+            padding: 20px;
+            margin: 20px;
+            
+        }
+        #header2:hover{
+            
+            color: blue;
+            background-color: lightgreen;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 50px;
+            transition: all 0.5s ease;
+            transform: scale(1.1);
+            text-shadow: 2px 2px 5px grey;
+            box-shadow: 5px 5px 10px grey;
+            border-radius: 10px;
+            border: 2px solid black;
+            padding: 20px;
+            margin: 20px;
+            opacity: 0.8;
+            filter: brightness(1.2);
+            z-index: 1;
+            position: relative;
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
+            @keyframes shake {
+                0% { transform: translate(1px, 1px) rotate(0deg); }
+                10% { transform: translate(-1px, -2px) rotate(-1deg); }
+                20% { transform: translate(-3px, 0px) rotate(1deg); }
+                30% { transform: translate(3px, 2px) rotate(0deg); }
+                40% { transform: translate(1px, -1px) rotate(1deg); }
+                50% { transform: translate(-1px, 2px) rotate(-1deg); }
+                60% { transform: translate(-3px, 1px) rotate(0deg); }
+                70% { transform: translate(3px, 1px) rotate(-1deg); }
+                80% { transform: translate(-1px, -1px) rotate(1deg); }
+                90% { transform: translate(1px, 2px) rotate(0deg); }
+                100% { transform: translate(1px, -2px) rotate(-1deg); }
+            }
+            
+            
+        }
+        .p{
+            color: green;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: lightyellow;
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            box-shadow: 3px 3px 5px grey;
+        }
+        .p:hover{
+            color: darkgreen;
+            background-color: lightblue;
+            cursor: pointer;
+            font-size: 25px;
+            transition: all 0.5s ease;
+            transform: scale(1.05);
+            box-shadow: 5px 5px 10px grey;
+            border-radius: 10px;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+            opacity: 0.8;
+            filter: brightness(1.2);
+            z-index: 1;
+            position: relative;
+        }
+        div{
+            width: 100%;
+            height: 300px;
+            /* background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60');
+             */
+             background: linear-gradient(to right bottom, rgb(243, 122, 153),  black,red, white);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px grey;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="header2">hello word  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum officia dicta fugit beatae accusantium hic alias quisquam debitis exercitationem sapiente, perspiciatis eveniet excepturi rerum tenetur numquam unde eos fugiat voluptate reiciendis, saepe quidem id?</h1>
+
+    <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem. </p>
+
+
+    <pre>
+        background properties
+    </pre>
+    <div></div>
+</body>
+</html>

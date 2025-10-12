@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Shop - Modern Product Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">🛍️ E-Shop</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search products..." class="search-input">
+                <button class="search-btn">🔍</button>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="main-content">
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading products...</p>
+        </div>
+        
+        <section id="products" class="products-grid">
+            <!-- Products will be dynamically loaded here -->
+        </section>
+        
+        <div class="error-message" id="errorMessage" style="display: none;">
+            <p>❌ Failed to load products. Please try again later.</p>
+            <button onclick="location.reload()" class="retry-btn">Retry</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

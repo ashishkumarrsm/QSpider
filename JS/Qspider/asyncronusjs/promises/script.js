@@ -86,11 +86,59 @@
 //     console.log(err);
 //   });
 
-const data = fetch(`https://fakestoreapi.com/products`)
-  .then((res) => res.json())
-  .then((data) => {
-    console.log(data);
+// const data = fetch(`https://fakestoreapi.com/products`)
+//   .then((res) => res.json())
+//   .then((data) => {
+//     console.log(data);
+//   })
+//   .catch((err) => {
+//     console.dir(`error `+err );
+//   });
+
+// let div=document.getElementById("data")
+
+// let myPromis=new Promise((resolve,reject)=>{
+//  const data = fetch('https://fakestoreapi.com/products')
+//  return data ? resolve(data) : reject('error')
+// })
+
+// myPromis.then((res)=>  res.json())
+// .then((data)=>{
+//   data.forEach(element => {
+//     div.innerHTML+=`
+//         <h1>this is the title ${element.title}</h1>
+//         <h1>this is the price ${element.price}</h1>
+//         <h1>this is the description :   ${element.description}</h1>
+//     `
+//     // console.log(`this is the title ${element.title}`);
+//     // console.log(`this is the price ${element.price}`);
+//     // console.log(`this is the description :   ${element.description}`);
+//   });
+// })
+// .catch((err)=>{
+//   console.log(err)
+// })
+
+let promise = new Promise((resolve, reject) => {
+  setTimeout(() => resolve(10), 2000);
+});
+
+promise
+  .then((result) => {
+    console.log(result); // 10
+    return result * 2;
   })
-  .catch((err) => {
-    console.dir(`error `+err );
-  });
+  .then((result) => {
+    console.log(result); // 20
+    return result * 3;
+  })
+  .then((result) => {
+    console.log(result); // 60
+  })
+  .catch((error) => {
+    console.error(error);
+  })
+  .finally(() => console.log("Promise chain complete"));
+
+// In this example, each .then() receives the result of the previous one,
+// allowing for a sequence of asynchronous operations to be performed in order.
