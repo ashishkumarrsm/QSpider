@@ -1,0 +1,93 @@
+/* Container Grid */
+#products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  background: #f8f9fa;
+}
+
+/* Card Style */
+.card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Image */
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* Title */
+.card h3 {
+  font-size: 1.1rem;
+  color: #333;
+  min-height: 50px;
+}
+
+/* Category */
+.category {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+/* Price */
+.price {
+  color: #007bff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* Rating */
+.rating {
+  color: #f39c12;
+  font-size: 0.9rem;
+}
+
+/* Buttons */
+.btns {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btns button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.add {
+  background: #28a745;
+  color: white;
+}
+
+.add:hover {
+  background: #218838;
+}
+
+.buy {
+  background: #007bff;
+  color: white;
+}
+
+.buy:hover {
+  background: #0069d9;
+}
