@@ -1,8 +1,24 @@
 import React, { Component } from "react";
-import "../components/Products.css"
+import "../components/Products.css";
 export default class Products extends Component {
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     products: [],
+  //     loading: true,
+  //     error: null,
+  //   };
+  // }
+  // async cardData(){
+  //  let respnce= await fetch("https://fakestoreapi.com/products")
+  //  let data=await respnce.json()
+  //  return data
+  
+  // }
+
   render() {
-    let product = [
+    // const {products,loading,error}=this.state
+    let products = [
       {
         id: 1,
         title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -274,27 +290,33 @@ export default class Products extends Component {
           count: 145,
         },
       },
-    ];
-
+ 
+    ]
     return (
       <>
         <section id="products">
-        {product.map((ele, i) => {
-          return (
-            <div className="card" key={i}>
-              <img src={ele.image} alt={ele.title} />
-             <h3>{ele.title.length > 40 ? ele.title.slice(0, 40) + "..." : ele.title}</h3>
-              <p className="category">{ele.category}</p>
-              <p className="price">${ele.price}</p>
-              <p className="rating">⭐ {ele.rating.rate} / 5 ({ele.rating.count} reviews)</p>
-              <div className="btns">
-                <button className="add">Add To Cart</button>
-                <button className="buy">Buy Now</button>
+          {products.map((ele, i) => {
+            return (
+              <div className="card" key={i}>
+                <img src={ele.image} alt={ele.title} />
+                <h3>
+                  {ele.title.length > 40
+                    ? ele.title.slice(0, 40) + "..."
+                    : ele.title}
+                </h3>
+                <p className="category">{ele.category}</p>
+                <p className="price">${ele.price}</p>
+                <p className="rating">
+                  ⭐ {ele.rating.rate} / 5 ({ele.rating.count} reviews)
+                </p>
+                <div className="btns">
+                  <button className="add">Add To Cart</button>
+                  <button className="buy">Buy Now</button>
+                </div>
               </div>
-            </div>
-          );
-        })}
-      </section>
+            );
+          })}
+        </section>
       </>
     );
   }

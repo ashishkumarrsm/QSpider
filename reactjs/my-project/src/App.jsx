@@ -14,6 +14,7 @@ import React, { Component } from 'react'
 import NavBar from './components/NavBar'
 import Products from './components/Products'
 import Footer from './components/Footer'
+import Test from './components/Test1'
 
 export default class App extends Component {
   render() {
@@ -22,6 +23,8 @@ export default class App extends Component {
       <NavBar/>
       <Products/>
       <Footer/>
+
+      <Test/>
       
       </>
     )
