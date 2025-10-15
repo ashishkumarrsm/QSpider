@@ -8,7 +8,7 @@ export default class Footer extends Component {
         <div className="footer-container">
           {/* ===== About Section ===== */}
           <div className="footer-section">
-            <h3>ShopEase</h3>
+            <h3 className="">ShopEase</h3>
             <p>
               Your one-stop online store for fashion, electronics, and more.
               Shop smart and save more with ShopEase.
