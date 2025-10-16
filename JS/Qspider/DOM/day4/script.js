@@ -82,3 +82,50 @@ submit.addEventListener("click",(e)=>{
     e.preventDefault()
     console.log(e)
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log("Start")
+
+
+setTimeout(()=>{
+  console.log('str1')
+},3000)
+
+setInterval(()=>{
+  new Promise((res,rej)=>{
+  res("p2 Promis is resolve")
+  
+}).then((ele)=>{
+  console.log(ele)
+})
+
+},1000)
+
+console.log("End")
+new Promise((res,rej)=>{
+  res("p1 Promis is resolve")
+  
+}).then((ele)=>{
+  console.log(ele)
+})
+
