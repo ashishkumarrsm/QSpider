@@ -1,0 +1,114 @@
+.main {
+  border: 2px solid red;
+  width: 2000px;
+  height: 2000px;
+}
+.first {
+  border: 2px solid rgb(236, 86, 86);
+  width: full;
+  height: 200px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.second {
+  border: 2px solid rgb(236, 86, 86);
+  width: full;
+  height: 200px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.third {
+  border: 2px solid rgb(236, 86, 86);
+  width: full;
+  height: 200px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box1 {
+  border: 2px solid rgb(236, 86, 86);
+  width: 20%;
+  height: 90%;
+}
+.box2 {
+  border: 2px solid rgb(236, 86, 86);
+  width: 40%;
+  height: 90%;
+}
+.box3 {
+  border: 2px solid rgb(236, 86, 86);
+  width: 20%;
+  height: 90%;
+}
+
+.box4 {
+  border: 2px solid rgb(236, 86, 86);
+  width: 40%;
+  height: 90%;
+}
+.box5 {
+  border: 2px solid rgb(236, 86, 86);
+  width: 20%;
+  height: 90%;
+}
+.box6 {
+  border: 2px solid rgb(236, 86, 86);
+  width: 30%;
+  height: 90%;
+}
+.box7 {
+  border: 2px solid rgb(236, 86, 86);
+  width: 40%;
+  height: 90%;
+}
+.box8 {
+  border: 2px solid rgb(236, 86, 86);
+  width: 20%;
+  height: 90%;
+}
+.box9 {
+  border: 2px solid rgb(236, 86, 86);
+  width: 30%;
+  height: 90%;
+}
+
+.container {
+  border: 2px solid red;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.top {
+  /* border: 2px solid pink; */
+  width: full;
+  height: 20px;
+  display: flex;
+  margin: auto;
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.eye {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dote{
+    width: 10px;
+    height: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background: #000;
+}

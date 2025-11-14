@@ -1,0 +1,9 @@
+ul p{
+    color: red;
+}
+ul>p{
+    color: gray;
+}
+ul~p{
+    color: rgb(38, 0, 255);
+}

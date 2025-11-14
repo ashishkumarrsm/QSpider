@@ -73,9 +73,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 6866.972888142877,
-			"y": 322.37931416535804,
-			"lastActivityTimestamp": 1760446565957,
+			"x": 9460.893182050046,
+			"y": -803.6696512868136,
+			"lastActivityTimestamp": 1762855544459,
 			"meta": {}
 		},
 		{
@@ -134,9 +134,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5915.6879642496115,
-			"y": -238.62321020383467,
-			"z": 1.3013976873861441,
+			"x": -8971.065518426176,
+			"y": 986.304302778397,
+			"z": 1.3086235172136227,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -460,12 +460,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:0BeDLulZ0fjs2EY6yYhpj",
+			"editingShapeId": "shape:9sSwELyI1me_mWOpKVqFb",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:0BeDLulZ0fjs2EY6yYhpj"
+				"shape:9sSwELyI1me_mWOpKVqFb"
 			],
-			"hoveredShapeId": "shape:0BeDLulZ0fjs2EY6yYhpj",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -674,6 +674,39 @@
 			},
 			"parentId": "page:page",
 			"index": "aOrmFpkV",
+			"typeName": "shape"
+		},
+		{
+			"x": 9437.33576534289,
+			"y": -810.9724504660318,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:9sSwELyI1me_mWOpKVqFb",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 16,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aPwYBl9V",
 			"typeName": "shape"
 		},
 		{
@@ -1069,9 +1102,7 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -1085,8 +1116,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1872,
-				"h": 656
+				"w": 1632,
+				"h": 693
 			},
 			"insets": [
 				false,
