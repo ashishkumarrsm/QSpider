@@ -52,3 +52,38 @@ const App = () => {
 };
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// day 3
+
+
+
+    // import React from 'react'
+    
+    // const App = () => {
+    //   return (
+    //     <div>App</div>
+    //   )
+    // }
+    
+    // export default App
