@@ -50,19 +50,6 @@
 
 // export default App;
 
-import React from "react";
-import UseReducer from "./useReducer/UseReducer";
-
-const App = () => {
-  return (
-    <div className="bg-black w-full h-96">
-      <UseReducer />
-    </div>
-  );
-};
-
-export default App;
-
 // day 3
 
 // import React from 'react'
@@ -74,3 +61,33 @@ export default App;
 // }
 
 // export default App
+
+// day4
+
+// import React from "react";
+// import UseReducer from "./useReducer/UseReducer";
+
+// const App = () => {
+//   return (
+//     <div className="bg-black w-full h-96">
+//       <UseReducer />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// day4
+
+import React from "react";
+import ReactMemoParent from "./Memoization/ReactMemeo/ReactMemoParent";
+
+const App = () => {
+  return (
+    <div>
+      <ReactMemoParent />
+    </div>
+  );
+};
+
+export default App;
