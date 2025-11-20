@@ -79,15 +79,32 @@
 
 // day4
 
-import React from "react";
-import ReactMemoParent from "./Memoization/ReactMemeo/ReactMemoParent";
+// import React from "react";
+// import ReactMemoParent from "./Memoization/ReactMemeo/ReactMemoParent";
+
+// const App = () => {
+//   return (
+//     <div>
+//       <ReactMemoParent />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+
+
+
+// day 5
+
+
+import React from 'react'
+import UserCbParent from './Memoization/UseCallback/UserCbParent'
 
 const App = () => {
   return (
-    <div>
-      <ReactMemoParent />
-    </div>
-  );
-};
+    <div><UserCbParent/></div>
+  )
+}
 
-export default App;
+export default App
