@@ -1,0 +1,16 @@
+@import url('./css/Home.css');
+@import url('./css/About.css');
+@import url('./css/Education.css');
+@import url('./css/Services.css');
+@import url('./css/Portfolio.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
